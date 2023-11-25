@@ -1,7 +1,7 @@
-package com.company.intecap.apiarticulo.service;
+package com.company.intecap.apibooks.service;
 
-import com.company.intecap.apiarticulo.model.Articulo;
-import com.company.intecap.apiarticulo.response.ArticuloResponseRest;
+import com.company.intecap.apibooks.model.Articulo;
+import com.company.intecap.apibooks.response.ArticuloResponseRest;
 import org.springframework.http.ResponseEntity;
 
 public interface IArticuloService {

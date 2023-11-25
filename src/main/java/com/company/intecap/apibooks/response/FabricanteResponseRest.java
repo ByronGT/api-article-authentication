@@ -1,4 +1,4 @@
-package com.company.intecap.apiarticulo.response;
+package com.company.intecap.apibooks.response;
 
 public class FabricanteResponseRest extends ResponseRest {
 

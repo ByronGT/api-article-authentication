@@ -1,7 +1,7 @@
 package com.company.intecap.apibooks.service;
 
 import com.company.intecap.apibooks.model.Categoria;
-import com.company.intecap.apibooks.respose.CategoriaResponseRest;
+import com.company.intecap.apibooks.response.CategoriaResponseRest;
 import org.springframework.http.ResponseEntity;
 
 public interface ICategoriaService {

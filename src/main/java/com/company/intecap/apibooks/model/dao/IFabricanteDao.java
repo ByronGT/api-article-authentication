@@ -1,6 +1,6 @@
-package com.company.intecap.apiarticulo.model.dao;
+package com.company.intecap.apibooks.model.dao;
 
-import com.company.intecap.apiarticulo.model.Fabricante;
+import com.company.intecap.apibooks.model.Fabricante;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface IFabricanteDao extends JpaRepository<Fabricante, Long> {

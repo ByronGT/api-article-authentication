@@ -1,4 +1,4 @@
-package com.company.intecap.apibooks.respose;
+package com.company.intecap.apibooks.response;
 
 public class CategoriaResponseRest extends ResponseRest {
 

@@ -1,8 +1,8 @@
-package com.company.intecap.apiarticulo.controller;
+package com.company.intecap.apibooks.controller;
 
-import com.company.intecap.apiarticulo.model.Articulo;
-import com.company.intecap.apiarticulo.response.ArticuloResponseRest;
-import com.company.intecap.apiarticulo.service.IArticuloService;
+import com.company.intecap.apibooks.model.Articulo;
+import com.company.intecap.apibooks.response.ArticuloResponseRest;
+import com.company.intecap.apibooks.service.IArticuloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

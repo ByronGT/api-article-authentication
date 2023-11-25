@@ -1,7 +1,7 @@
 package com.company.intecap.apibooks.controller;
 
 import com.company.intecap.apibooks.model.Libro;
-import com.company.intecap.apibooks.respose.LibroResponseRest;
+import com.company.intecap.apibooks.response.LibroResponseRest;
 import com.company.intecap.apibooks.service.ILibroService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

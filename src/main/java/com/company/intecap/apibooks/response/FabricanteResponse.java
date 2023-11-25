@@ -1,6 +1,6 @@
-package com.company.intecap.apiarticulo.response;
+package com.company.intecap.apibooks.response;
 
-import com.company.intecap.apiarticulo.model.Fabricante;
+import com.company.intecap.apibooks.model.Fabricante;
 
 import java.util.List;
 

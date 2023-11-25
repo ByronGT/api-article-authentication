@@ -1,26 +1,28 @@
-package com.company.intecap.apiarticulo.model;
+package com.company.intecap.apibooks.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+import javax.persistence.*;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.Set;
 
-@Data
+@Entity(name = "fabricante")
 @NoArgsConstructor
 @AllArgsConstructor
+@Data
 @Builder
-@Entity(name = "fabricante")
 public class Fabricante implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @NotNull(message = "El nombre es requerido")
+    @NotBlank(message = "El nombre es requerido")
     private String nombre;
 
     @OneToMany(

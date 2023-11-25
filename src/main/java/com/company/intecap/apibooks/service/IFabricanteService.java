@@ -1,7 +1,7 @@
-package com.company.intecap.apiarticulo.service;
+package com.company.intecap.apibooks.service;
 
-import com.company.intecap.apiarticulo.model.Fabricante;
-import com.company.intecap.apiarticulo.response.FabricanteResponseRest;
+import com.company.intecap.apibooks.model.Fabricante;
+import com.company.intecap.apibooks.response.FabricanteResponseRest;
 import org.springframework.http.ResponseEntity;
 
 public interface IFabricanteService {

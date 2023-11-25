@@ -35,7 +35,7 @@ public class ConfigSeguridad extends WebSecurityConfigurerAdapter {
     //Desativamos algunas reglas que no necesitamos que utilice Spring Security
     @Override
     public void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests().antMatchers(HttpMethod.GET, "/api/v1/categorias").permitAll() //permitAll: permite a todos los usuarios acceder a la ruta
+        http.authorizeRequests().antMatchers(HttpMethod.GET, "/api/v1/fabricantes").permitAll() //permitAll: permite a todos los usuarios acceder a la ruta
                 //para todos lo demas se requiere autenticacion
                 .anyRequest().authenticated() //authenticated: cualquier otra ruta requiere autenticación
                 .and()

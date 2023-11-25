@@ -1,4 +1,4 @@
-package com.company.intecap.apibooks.respose;
+package com.company.intecap.apibooks.response;
 
 public class LibroResponseRest extends ResponseRest { // ResponseRest: contiene toda la estructura de  la metada la respuesta de la api
 

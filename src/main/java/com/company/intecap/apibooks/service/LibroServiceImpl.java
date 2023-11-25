@@ -2,7 +2,7 @@ package com.company.intecap.apibooks.service;
 
 import com.company.intecap.apibooks.model.Libro;
 import com.company.intecap.apibooks.model.dao.ILibroDao;
-import com.company.intecap.apibooks.respose.LibroResponseRest;
+import com.company.intecap.apibooks.response.LibroResponseRest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
